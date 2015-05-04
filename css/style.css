@@ -449,7 +449,7 @@ div {
 }
 
 .top-navigation > .content {
-  width: 970px;
+  width: 850px;
   height: 70px;
   margin: 0 auto;
   padding: 0px 15px;
@@ -467,8 +467,8 @@ div {
     float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -536,6 +536,12 @@ button {
   margin-top: 1.563rem;
 }
 
+.content {
+  padding: 0 0.938rem;
+  margin: auto;
+  min-width: 37.5rem;
+}
+
 .cases {
   background-color: #fff;
   overflow: hidden;
@@ -545,7 +551,7 @@ button {
 .cases h2 {
   font-size: 2.75rem;
   margin: 1.625rem 0 3.125rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 h2 {
@@ -565,6 +571,7 @@ h2 {
   text-align: center;
 }
 
+
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
@@ -572,4 +579,57 @@ h2 {
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
+}
+
+.cases .devices > li {
+  width: 33.3333333%;
+  float: left;
+}
+
+
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+} 
+
+.devices {
+  margin-bottom: 200px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+
+
+/* Footer */
+
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
+
+.social .icons li {
+    display: inline-block;
+    text-align: center;
 }
