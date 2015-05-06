@@ -437,11 +437,11 @@ th {
 /* Navigation Section */
 
 .top-navigation {
-  position: fixed;
+  background-color: #fff; 
+  position: relative;
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
-  background-color: #fff;
 }
 
 .top-navigation > .content {
