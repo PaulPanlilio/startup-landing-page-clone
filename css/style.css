@@ -438,7 +438,9 @@ th {
 
 .top-navigation {
   background-color: #fff; 
-  position: relative;
+  top: 0;
+  left: 0;
+  position: fixed;
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
