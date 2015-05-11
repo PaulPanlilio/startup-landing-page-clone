@@ -445,14 +445,19 @@ th {
 }
 
 .top-navigation > .content {
-  width: 850px;
-  height: 70px;
-  margin: 0 auto;
-  padding: 0px 15px;
+  background-color: #fff; 
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
   font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
   color: #838994; 
   letter-spacing: 0.03em;
+  padding-left: 269px;
+  padding-right: 269px;
 }
 
 .logo {
